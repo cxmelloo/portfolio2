@@ -29,15 +29,15 @@
 
 				<ul class="nav-list">
 					<li class="nav-list__item">
-						<a class="nav-list__link" href="/">Work</a>
+						<a class="nav-list__link" href="#work">Work</a>
 					</li>
 
 					<li class="nav-list__item">
-						<a class="nav-list__link" href="/">About</a>
+						<a class="nav-list__link" href="#about-me">About</a>
 					</li>
 
 					<li class="nav-list__item">
-						<a class="nav-list__link" href="/">Contact</a>
+						<a class="nav-list__link" href="#contact">Contact</a>
 					</li>
 				</ul>
 				<button class="menu-btn">
@@ -84,7 +84,7 @@
 		<!-- HERO END -->
 
 		<!-- PROJECT START -->
-		<section class="project">
+		<section class="project" id="work">
 			<div class="container">
 				<div class="project-top">
 					<h3 class="project__title">Featured Projects</h3>
@@ -193,9 +193,9 @@
 		<!-- PROJECT END -->
 
 		<!-- ABOUT START -->
-		<section class="about">
+		<section class="about" id="about-me">
 			<div class="container about__container">
-				<h5 class="about__title">About Me</h5>
+          <h5 class="about__title">About Me</h5>
 
 				<div class="about-right">
 					<h6 class="about-right__title">I am a front-end developer based in Sydney. Has Mechanical Engineering background.</h6>
@@ -217,7 +217,7 @@
 		<!-- ABOUT END -->
 
 		<!-- CONNECT START -->
-		<footer class="footer">
+		<footer class="footer" id="contact">
 			<div class="container footer-container">
 				<div class="footer-left">
 					<h6 class="footer-left__title">Let’s connect</h6>
@@ -257,16 +257,17 @@
 					<div class="footer-right__form">
 						<form>
 							<label class="label" for="Name">Name</label>
-							<input class="footer-right" type="text" name="Name" required/>
+							<input class="footer-right" type="text" name="Name" required id="Name"/>
 
 							<label class="label" for="Email">Email</label>
-							<input class="footer-right" type="email" name="Email" required/>
+							<input class="footer-right" type="email" name="Email" required id="Email"/>
 
               <label class="label" for="Subject">Subject</label>
-							<input class="footer-right" type="text" name="SUbject" required/>
+							<input class="footer-right" type="text" name="SUbject" required id="Subject"/>
 
-              <label class="label" for="">Message</label>
-							<textarea class="footer-right" name="Message" id="" rows="4"></textarea>
+              <label class="label" for="Message">Message</label>
+							<textarea class="footer-right" name="Message" id="Message" rows="4"></textarea>
+              <button class="footer__btn">Submit</button>
 						</form>
 					</div>
 				</div>
